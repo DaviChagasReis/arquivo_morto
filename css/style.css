@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(187, 187, 187)!important;
+    padding: 80px;
+}
+
+
+
+.fundo{
+    background-color: #fff;
+    height: 80vh;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: auto;
+}
+
+
+
+.fundo-menu{
+    display: flex;
+    justify-content:space-around;
+    height: 150px;
+    align-items: center;
+    background-color: rgb(187, 187, 187);
+}
+
+
+
+.fundo-conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.botao-menu:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+
+}
+
+
+
+.botao-menu{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(23, 183, 231);
+    color: aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.icone{
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 5px;
+}
+
+
+
+.mensagem-bem-vindo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.tabela{
+    width: 100%;
+}
+
+
+
